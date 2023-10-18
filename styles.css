@@ -9,20 +9,25 @@
     - Extra: Make the corners rounded
 */
 button {
-    font-size: 5px;
-    cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
+  background-color: #FF69B4;
+  color: white;
+  padding: 16px;
+
+  border-radius: 20px;
+
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
 }
 
+button.
 /* 
     4. Styling for the hover state.
     - Change the background color to Dark Magenta (#8B008B)
     - Set the font size to 18px
 */
-button:hover {
-    
-}
+button:hover {}
 
 button:active {
-    transform: scale(0.95);
+  transform: scale(0.95);
 }
